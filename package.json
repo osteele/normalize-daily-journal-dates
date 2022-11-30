@@ -1,0 +1,24 @@
+{
+  "name": "normalize-daily-journal-dates",
+  "version": "1.0.0",
+  "description": "Rename files with date names to ISO standard",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node index.js --dry-run testdata"
+  },
+  "bin": {
+    "noramlize-daily-journal-dates": "./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "any-date-parser": "^1.5.3",
+    "commander": "^9.4.1",
+    "glob": "^8.0.3",
+    "luxon": "^3.1.0",
+    "node-fetch": "^3.2.6"
+  }
+}
